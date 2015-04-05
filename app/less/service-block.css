@@ -1,0 +1,121 @@
+/* -------= imports =------- */
+/* Fonts */
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../static/fonts/Roboto-Light.eot");
+  src: url("../static/fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../static/fonts/Roboto-Light.woff") format("woff"), url("../static/fonts/Roboto-Light.ttf") format("truetype"), url("../static/fonts/Roboto-Light.svg#Roboto-Light") format("svg");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../static/fonts/Roboto-Bold.eot");
+  src: url("../static/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../static/fonts/Roboto-Bold.woff") format("woff"), url("../static/fonts/Roboto-Bold.ttf") format("truetype"), url("../static/fonts/Roboto-Bold.svg#Roboto-Bold") format("svg");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../static/fonts/Roboto-Regular.eot");
+  src: url("../static/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../static/fonts/Roboto-Regular.woff") format("woff"), url("../static/fonts/Roboto-Regular.ttf") format("truetype"), url("../static/fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+}
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("../static/fonts/Roboto-Black.eot");
+  src: url("../static/fonts/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../static/fonts/Roboto-Black.woff") format("woff"), url("../static/fonts/Roboto-Black.ttf") format("truetype"), url("../static/fonts/Roboto-Black.svg#Roboto-Black") format("svg");
+}
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../static/fonts/Roboto-Thin.eot");
+  src: url("../static/fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../static/fonts/Roboto-Thin.woff") format("woff"), url("../static/fonts/Roboto-Thin.ttf") format("truetype"), url("../static/fonts/Roboto-Thin.svg#Roboto-Thin") format("svg");
+}
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: url("../static/fonts/Roboto-ThinItalic.eot");
+  src: url("../static/fonts/Roboto-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../static/fonts/Roboto-ThinItalic.woff") format("woff"), url("../static/fonts/Roboto-ThinItalic.ttf") format("truetype"), url("../static/fonts/Roboto-ThinItalic.svg#Roboto-ThinItalic") format("svg");
+}
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src: url("../static/fonts/Roboto-MediumItalic.eot");
+  src: url("../static/fonts/Roboto-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../static/fonts/Roboto-MediumItalic.woff") format("woff"), url("../static/fonts/Roboto-MediumItalic.ttf") format("truetype"), url("../static/fonts/Roboto-MediumItalic.svg#Roboto-MediumItalic") format("svg");
+}
+/* ------------------------------------------- */
+.roboto-light {
+  font-family: "Roboto-Light";
+}
+.roboto-bold {
+  font-family: "Roboto-Bold";
+}
+.roboto-regular {
+  font-family: "Roboto-Regular";
+}
+.roboto-black {
+  font-family: "Roboto-Black";
+}
+.roboto-thin {
+  font-family: "Roboto-Thin";
+}
+.roboto-thinitalic {
+  font-family: "Roboto-ThinItalic";
+}
+.roboto-mediumitalic {
+  font-family: "Roboto-MediumItalic";
+}
+/* ------------------------------------------- */
+/* MIXINS */
+/* by https://bitbucket.org/wowua/ */
+.inlineblock {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+}
+.clearfix {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/* -------= imports =------- */
+/* -------= imports =------- */
+/* -------= Примесь для кнопки =------- */
+/* anchor кнопка */
+/* -------= Примесь для кнопки =------- */
+/* -------= imports =------- */
+/* -------= variables =------- */
+/* -------= variables =------- */
+.service-block__header {
+  color: #000000;
+  font-family: "Roboto-Regular";
+  text-transform: uppercase;
+  text-shadow: none;
+  line-height: 55px;
+  padding-left: 29px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.service-block__header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 44px !important;
+}
+.marg-top__20 {
+  margin-top: 20px;
+}
+.serv-thumbnail p {
+  font-family: "Roboto-Regular";
+}
+.serv-thumbnail h3 {
+  font-family: "Roboto-Bold";
+  text-transform: uppercase;
+}
+.serv-thumbnail:hover {
+  box-shadow: 0 0 20px 10px rgba(15, 134, 180, 0.48);
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+}

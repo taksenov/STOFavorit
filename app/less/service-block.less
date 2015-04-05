@@ -1,0 +1,51 @@
+/* -------= imports =------- */
+@import "fonts";
+@import "mixins";
+@import "button";
+/* -------= imports =------- */
+
+/* -------= variables =------- */
+@service-block-text: #000000;
+/* -------= variables =------- */
+
+.service-block__header {
+    color: @service-block-text;
+    .roboto-regular;
+
+    text-transform: uppercase;
+    text-shadow: none;
+    line-height: 55px;
+
+    padding-left: 29px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 44px !important;
+    }
+}
+
+.marg-top__20 {
+    margin-top: 20px;
+}
+
+.serv-thumbnail {
+    p {
+        .roboto-regular;
+    }
+
+    h3 {
+        .roboto-bold;
+        text-transform: uppercase;
+    }
+    &:hover {
+        box-shadow: 0 0 20px 10px rgba(15, 134, 180, 0.48);
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+        transition: 2s;
+    }
+}

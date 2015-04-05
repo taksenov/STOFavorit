@@ -1,0 +1,46 @@
+/* -------= imports =------- */
+@import "fonts";
+@import "mixins";
+
+/* -------= imports =------- */
+
+
+/* -------= Примесь для кнопки =------- */
+/* anchor кнопка */
+.original-button (@width: 68px, @height: 28px, @img: none, @bradius: 3px, @bg-color: #17709a, @hover-bg-color: #17709a, @font-color: #ffffff) {
+	width: @width;
+    height: @height;
+    text-align: center;
+    .border-radius(@bradius);
+    background-color: @bg-color;
+    .inlineblock;
+    padding: 0;
+    border: 0 none;
+    text-decoration: none;
+    .transition(0.2s);
+    line-height: @height;
+    color: @font-color;
+    font-size: 12px;
+    .roboto-bold;
+
+    &:before {
+        content: "";
+        width: 25px;
+        height: @height;
+        .inlineblock;
+        background: @img center center no-repeat;
+    }
+
+    &:hover {
+        opacity: 0.9;
+        background-color: @hover-bg-color;
+        text-decoration: none;
+        color: @font-color;
+    }
+}
+.original-button (@width, @height, @img, @bradius, @bg-color, @hover-bg-color, @font-color) when (@img = none) {
+    &:before {
+        display: none;
+    }
+}
+/* -------= Примесь для кнопки =------- */

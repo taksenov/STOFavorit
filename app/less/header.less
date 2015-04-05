@@ -1,0 +1,160 @@
+/* -------= imports =------- */
+@import "mixins";
+@import "fonts";
+/* -------= imports =------- */
+
+
+/* -------= header =------- */
+.header {
+    min-height: 88px;
+    background-color: #ffffff;
+}
+
+.header__main-nav ul :first-child {
+    margin-left: 0 !important;
+}
+
+.header__main-nav {
+//    padding-left: 0;
+//    padding-right: 0;
+}
+
+.header__main-nav_logo {
+//    padding-right: 0;
+//    padding-left: 0;
+}
+
+.header__nav {
+    .clearfix;
+}
+
+.header__nav__navs {
+    float: left;
+    margin-left: 37px;
+}
+
+.header__marg-top_15 {
+    margin-top: 15px;
+}
+
+.header__marg-top_38 {
+    margin-top: 38px;
+}
+
+.header__marg-top_20 {
+    margin-top: 20px;
+}
+.logo-text {
+    .roboto-light;
+    font-size: 21px;
+    color: #898989;
+}
+.logo-text__bold {
+    .roboto-bold;
+    font-size: 21px;
+    color: #2e2e2e;
+    text-transform: uppercase;
+}
+.header__nav__navs {
+
+}
+.header__nav__link {
+    .roboto-light;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #1c1c1c;
+    &:hover {
+        color: #1c1c1c;
+    }
+}
+.header__phone-prefix {
+    .roboto-light;
+    font-size: 24px;
+}
+.header__phone-number {
+    .roboto-bold;
+    font-size: 24px;
+}
+.header__phone-link {
+    a {
+        .roboto-light;
+        text-decoration: underline;
+        font-size: 14px;
+        color: #4d73b6;
+    }
+    a:hover {
+        .roboto-light;
+        text-decoration: none;
+    }
+}
+/* -------= header =------- */
+
+/* -------= media queries =------- */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .header__marg-top_33 {
+        margin-top: 10px;
+    }
+
+    .header__marg-top_38 {
+        margin-top: 17px;
+    }
+
+    .header__marg-top_20 {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 993px) {
+    .header__marg-top_33 {
+        margin-top: 10px;
+    }
+
+    .header__marg-top_38 {
+        margin-top: 10px;
+    }
+
+    .header__marg-top_20 {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header__nav__navs {
+        float: none;
+        margin-left: 0;
+    }
+    .header__marg-top_33 {
+        margin-top: 10px;
+    }
+
+    .header__marg-top_38 {
+        margin-top: 10px;
+    }
+
+    .header__marg-top_20 {
+        margin-top: 10px;
+    }
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    .roboto-bold;
+    font-size: 21px;
+}
+
+/* -------= media queries =------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

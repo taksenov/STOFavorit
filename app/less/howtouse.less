@@ -1,0 +1,80 @@
+/* -------= imports =------- */
+@import "fonts";
+
+/* -------= imports =------- */
+
+/* -------= variables =------- */
+@dark-divider-min-height: 215px;
+@dark-divider-max-height: 8000px;
+@dark-divider-color: #333333;
+
+/* -------= variables =------- */
+
+/* -------= dark-divider =------- */
+.dark-divider {
+    background: @dark-divider-color no-repeat center center /*fixed*/;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    //height:     @dark-divider-height;
+    min-height: @dark-divider-min-height;
+    max-height: @dark-divider-max-height;
+    z-index: -10;
+}
+
+
+.dark-divider__text {
+    color: #ffffff;
+    .roboto-regular;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.dark-divider__text_phone {
+    font-weight: 600;
+}
+.dark-divider__text-align_mod {
+    text-align: center;
+}
+.dark-divider__mainrow {
+    margin-top: 5%;
+    margin-bottom: 25px;
+}
+.dark-divider__buttonrow {
+}
+/* -------= dark-divider =------- */
+
+.black__thumbnail {
+    background-color: @dark-divider-color;
+    border-color: transparent;
+}
+
+.white__caption {
+    margin-top: 35px;
+    p {
+        color: #ffffff;
+        .roboto-light;
+        font-size: 20px;
+    }
+}
+
+.social-block__region {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
